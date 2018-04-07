@@ -3,7 +3,9 @@ function foo() {
 	quux = 'a';
 
 	function zip() {
-		var quux;
 		var quux = 'b';
-	}
+		bar = true;
+	};
+
+	return zip;
 }
